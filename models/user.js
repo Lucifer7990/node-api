@@ -1,4 +1,5 @@
 import mongoose from "mongoose";
+mongoose.set("strictQuery", false);
 mongoose.connect('mongodb+srv://test:test@api.qkbnavw.mongodb.net/API')
 
 // mongoose.connect("mongodb://localhost:27017/temp");
